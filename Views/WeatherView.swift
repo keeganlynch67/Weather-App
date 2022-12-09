@@ -42,7 +42,7 @@ struct WeatherView: View {
                     
                        
                         VStack{
-                            Text(songs.randomElement()!)
+                            Text(quotes.randomElement()!)
                             
                         }
                     
