@@ -40,6 +40,12 @@ struct WeatherView: View {
                             .padding()
                     }
                     
+                       
+                        VStack{
+                            Text(songs.randomElement()!)
+                            
+                        }
+                    
                     Spacer()
                         .frame(height: 80)
                     
