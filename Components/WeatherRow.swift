@@ -1,8 +1,8 @@
 //
 //  WeatherRow.swift
-//  CursedWeatherApp
+//  FinalWeatherApp
 //
-//  Created by Keegan Lynch on 10/10/22.
+//  Created by Keegan Lynch on 11/28/22.
 //
 import SwiftUI
 
@@ -39,4 +39,3 @@ struct WeatherRow_Previews: PreviewProvider {
     }
 }
 
-// 33:08

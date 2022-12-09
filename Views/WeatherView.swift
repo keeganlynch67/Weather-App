@@ -1,9 +1,9 @@
 //
 //  WeatherView.swift
-//  CursedWeatherApp
+//  FinalWeatherApp
 //
-//  Created by Keegan Lynch on 9/18/22.
-
+//  Created by Keegan Lynch on 11/28/22.
+//
 
 import SwiftUI
 
@@ -40,6 +40,12 @@ struct WeatherView: View {
                             .padding()
                     }
                     
+                       
+                        VStack{
+                            Text(songs.randomElement()!)
+                            
+                        }
+                    
                     Spacer()
                         .frame(height: 80)
                     
@@ -65,7 +71,19 @@ struct WeatherView: View {
                 Spacer()
                 
                 VStack(alignment: .leading, spacing: 20) {
+                    Text("Weather now")
+                        .bold().padding(.bottom)
                     
+                    HStack {
+                        WeatherRow(logo: "thermometer.low", name: "Min temp", value:(weather.main.temp_min.roundDouble()+"°"))
+                        Spacer()
+                        WeatherRow(logo: "thermometer.high", name: "Max temp", value:(weather.main.temp.roundDouble()+"°"))
+                    }
+                    HStack {
+                        WeatherRow(logo: "wind", name: "Wind speed", value:(weather.wind.speed.roundDouble()+"°"))
+                        Spacer()
+                        WeatherRow(logo: "humidity", name: "Max temp", value:(weather.main.humidity.roundDouble()+"%"))
+                    }
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
@@ -87,3 +105,4 @@ struct WeatherView_Previews: PreviewProvider {
         WeatherView(weather: previewWeather)
     }
 }
+

@@ -1,14 +1,14 @@
 //
-//  CursedWeatherAppApp.swift
-//  CursedWeatherApp
+//  FinalWeatherAppApp.swift
+//  FinalWeatherApp
 //
-//  Created by Keegan Lynch on 9/18/22.
+//  Created by Keegan Lynch on 11/28/22.
 //
 
 import SwiftUI
 
 @main
-struct CursedWeatherAppApp: App {
+struct FinalWeatherAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

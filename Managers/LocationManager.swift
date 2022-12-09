@@ -1,8 +1,8 @@
 //
-//  LocationManager.swift
-//  CursedWeatherApp
+//  LocationManger.swift
+//  FinalWeatherApp
 //
-//  Created by Keegan Lynch on 9/18/22.
+//  Created by Keegan Lynch on 11/28/22.
 //
 
 import Foundation
@@ -33,4 +33,3 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
         isLoading = false
     }
 }
-

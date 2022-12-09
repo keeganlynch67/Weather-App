@@ -1,8 +1,8 @@
 //
 //  Extensions.swift
-//  CursedWeatherApp
+//  FinalWeatherApp
 //
-//  Created by Keegan Lynch on 10/2/22.
+//  Created by Keegan Lynch on 11/28/22.
 //
 
 import Foundation

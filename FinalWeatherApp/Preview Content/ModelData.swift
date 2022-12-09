@@ -1,8 +1,8 @@
 //
 //  ModelData.swift
-//  CursedWeatherApp
+//  FinalWeatherApp
 //
-//  Created by Keegan Lynch on 9/18/22.
+//  Created by Keegan Lynch on 11/28/22.
 //
 
 import Foundation
@@ -30,4 +30,3 @@ func load<T: Decodable>(_ filename: String) -> T {
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
 }
-// 22:00 into tutorial
