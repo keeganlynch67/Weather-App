@@ -8,4 +8,4 @@
 import SwiftUI
 
 var evenNumbers = [2, 4, 6, 8]
-var songs = ["It's colder than a polar bear's shriveled nutsack.", "That cloud looks like a toddler drowning a rubber ducky.", "The sun told me to tell you that they dont like you"]
+var quotes = ["It's colder than a polar bear's shriveled nutsack.", "That cloud looks like a toddler drowning a rubber ducky.", "The sun told me to tell you that they dont like you"]
